@@ -20,6 +20,7 @@ public class Author {
     }
     public String getPatronymic() {
         return this.patronymic;
+
     }
 }
 

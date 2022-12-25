@@ -8,6 +8,9 @@ public class Main {
         System.out.println("liberty = " + liberty.getNameBook() + " " + liberty.getYear());
         System.out.println("amphibianMan = " + amphibianMan.getNameBook() + " " +  amphibianMan.getYear());
 
+        liberty.setYear(2000);
+        System.out.println("liberty = " + liberty.getYear());
+
         Author petrov = new Author("Петров", "Афанасий", "Валерьевич");
         Author belyaev = new Author("Беляев", "Александр", "Романович");
         System.out.println("petrov = " + petrov.getSurname() + " " + petrov.getName() + " " + petrov.getPatronymic() );
