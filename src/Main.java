@@ -3,7 +3,7 @@ import pro.sky.java.course1.Objects_and_Classes.Book;
 public class Main {
     public static void main(String[] args) {
 
-        Book liberty = new Book( "Liberty", 1800);
+        Book liberty = new Book("Liberty",1980, "Петров Афанасий Валерьевич");
         Book amphibianMan = new Book("Человек амфибия", 1961);
         System.out.println("liberty = " + liberty.getNameBook() + " " + liberty.getYear());
         System.out.println("amphibianMan = " + amphibianMan.getNameBook() + " " +  amphibianMan.getYear());
