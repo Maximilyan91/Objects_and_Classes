@@ -6,7 +6,7 @@ public class Book {
 
     public String author;
 
-    public Book(String nameBook, int year, Author author) {
+    public Book(String nameBook, int year, String author) {
         this.nameBook = nameBook;
         this.year = year;
         this.author = author;

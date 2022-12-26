@@ -1,6 +1,5 @@
 package pro.sky.java.course1.Objects_and_Classes;
 
-
 public class Author {
     public String name;
     public String surname;

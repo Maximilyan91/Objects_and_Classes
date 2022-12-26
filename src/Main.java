@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         Book liberty = new Book("Liberty",1980, "Петров Афанасий Валерьевич");
-        Book amphibianMan = new Book("Человек амфибия", 1961);
-        System.out.println("liberty = " + liberty.getNameBook() + " " + liberty.getYear());
-        System.out.println("amphibianMan = " + amphibianMan.getNameBook() + " " +  amphibianMan.getYear());
+        Book amphibianMan = new Book("Человек амфибия", 1961, "Беляев Александр Романович");
+        System.out.println("liberty = " + liberty.getNameBook() + " " + liberty.getYear() + " " + liberty.getAuthor());
+        System.out.println("amphibianMan = " + amphibianMan.getNameBook() + " " +  amphibianMan.getYear() + " " + amphibianMan.getAuthor());
 
         liberty.setYear(2000);
         System.out.println("liberty = " + liberty.getYear());
