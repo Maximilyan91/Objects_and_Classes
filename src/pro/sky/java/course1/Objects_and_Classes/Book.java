@@ -1,6 +1,34 @@
 package pro.sky.java.course1.Objects_and_Classes;
 
 public class Book {
-    String nameBook;
-    int year;
+    public String nameBook;
+    public int year;
+
+    public Author author;
+
+    public Book(String nameBook, int year, Author author) {
+        this.nameBook = nameBook;
+        this.year = year;
+        this.author = author;
+    }
+
+    public String getNameBook() {
+        return this.nameBook;
+    }
+
+    public int getYear() {
+        return this.year;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+
+    public void setYear(int year) {
+        this.year = year;
+    }
 }
+
+
+
