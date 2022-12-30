@@ -18,10 +18,5 @@ public class Main {
 
         System.out.println("petrov = " + petrov.getSurname() + " " + petrov.getName() + " " + petrov.getPatronymic() );
         System.out.println("belyaev = " + belyaev.getName()  + " " +  belyaev.getName()  + " " +  petrov.getPatronymic());
-
-
     }
-
-
-
 }
